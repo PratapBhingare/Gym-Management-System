@@ -116,7 +116,7 @@ const Signup = () => {
         </form>
         <p className="mt-4 text-center text-gray-300">
           Already have an account?{" "}
-          <a href="/" className="text-red-400 hover:underline">Login</a>
+          <a href="/Gym-Management-System" className="text-red-400 hover:underline">Login</a>
         </p>
       </div>
       <ToastContainer />

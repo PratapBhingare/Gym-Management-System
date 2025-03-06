@@ -8,7 +8,7 @@ const LogoutButton = () => {
   const handleLogout = async () => {
     try {
       await auth.signOut();
-      navigate("/");
+      navigate("/Gym-Management-System");
     } catch (error) {
       console.error("Logout failed:", error);
     }
